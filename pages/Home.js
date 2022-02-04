@@ -26,7 +26,7 @@ export default function Home() {
             </TouchableOpacity>
 
             <TouchableOpacity
-            onPress={() => alert('Roteiro Sincronizado')}
+             onPress={() => navigation.navigate('CodigoBarras')}
             style={styles.button}>
             <Text style={styles.textButton}>Leitura de Codigo de Barras</Text>
             </TouchableOpacity>

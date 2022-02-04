@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
       paddingBottom: 20,
       paddingLeft: 20,
       backgroundColor: 'navy',
-      alignItems: 'left',
+      alignItems: 'flex-start',
     },
     headerText: {
     fontSize: 20,

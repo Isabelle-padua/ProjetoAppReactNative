@@ -31,7 +31,7 @@ function Imagem() {
         const permissionResult = await ImagePicker.requestCameraPermissionsAsync();
 
         if(permissionResult.granted === false) {
-            alert("You've refused to aloow this app to access ypur camera!")
+            alert("You've refused to aloow this app to access your camera!")
             return;
         }
 
@@ -40,7 +40,7 @@ function Imagem() {
         console.log(result);
 
         if(!result.cancelled) {
-            setPickedImagePath(resut.uri);
+            setPickedImagePath(result.uri);
             console.log(result.uri);
         }
     }
